@@ -5,6 +5,6 @@ on:
 
 jobs:
   reuse-workflow:
-    uses: tamayojohnaaron/microservices-workflows/.github/workflows/lesson3-exercise1.yaml@main
+    uses: tamayojohnaaron/microservices-workflows/.github/workflows/lesson3_exercise1.yaml@main
     with:
       actor: ${{ github.actor }}
