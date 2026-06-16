@@ -1,0 +1,10 @@
+name: "Lesson 3 - Exercise 1"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reuse-workflow:
+    uses: LearningGHActions/microservices-workflows/.github/workflows/lesson3-exercise1.yaml@main
+    with:
+      actor: ${{ github.actor }}
